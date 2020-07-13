@@ -1,4 +1,4 @@
-You can access and modify the following attributes of the carousel. To manage and access react-carousel you need to install [**recoil**](https://recoiljs.org/docs/introduction/getting-started) library
+You can access and modify the following attributes of the carousel. To manage and access react-carousel, you need to install [**recoil**](https://recoiljs.org/docs/introduction/getting-started) library.
 
 ```js
 import {
@@ -62,11 +62,8 @@ const customPlugin = () => ({
 
 * ```activeSlideIndexState: Number```: Active carousel slide index. Used in infinite plugin
 
-* ```transformOffsetSelector: Number```: Calculates offset in pixels to be applied to Track element in order to show current slide correctly
+* ```transformOffsetSelector: Number```: Calculates offset in pixels to be applied to track element in order to show current slide correctly
 
 * ```nearestSlideSelector: Number```: Checks what slide index is the nearest to the current position (to calculate the result of dragging the slider)
 
 * ```getCurrentValueSelector: Number```: Selector which uses strategies to calculate the current carousel value
-
-
-

@@ -40,7 +40,7 @@ const rtl = ({ carouselProps }) => ({
         }
         const slidesDiff = prev - value;
 
-        // if prev and original are the same we assume we use infinite plugin
+        // if prev and original are the same, we assume we use the infinite plugin
         const rtlValue = value + slidesDiff;
         if (original !== prev) {
           return clamp(rtlValue, slides);
